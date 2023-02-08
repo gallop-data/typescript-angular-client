@@ -28,6 +28,7 @@ model/getEthCustomCollectionRiskRequestHarParams.ts
 model/getEthCustomTokenRiskRequest.ts
 model/getEthDefaultCollectionRiskRequest.ts
 model/getEthDefaultTokenRiskRequest.ts
+model/getEthEnsLookupRequest.ts
 model/getEthHistoricalEventsRequest.ts
 model/getEthHistoricalTransactionsRequest.ts
 model/getEthLeaderBoardRequest.ts

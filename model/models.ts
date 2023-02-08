@@ -15,6 +15,7 @@ export * from './getEthCustomCollectionRiskRequestHarParams';
 export * from './getEthCustomTokenRiskRequest';
 export * from './getEthDefaultCollectionRiskRequest';
 export * from './getEthDefaultTokenRiskRequest';
+export * from './getEthEnsLookupRequest';
 export * from './getEthHistoricalEventsRequest';
 export * from './getEthHistoricalTransactionsRequest';
 export * from './getEthLeaderBoardRequest';
