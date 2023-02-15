@@ -17,21 +17,17 @@ export interface GetEthCollectionListingsOHLCRequest {
      */
     collection_address: string;
     /**
-     * The interval at which to return OHLC, e.g. `1D` for daily, `1M` for monthly etc.
+     * If `true`, report only historical floor prices. Otherwise, report OHFC candlesticks, number of active listings, number of unique owners and the average age of open listings.
+     */
+    floor_only?: boolean;
+    /**
+     * The interval at which to return Floor prices / OHLF, e.g. `1D` for daily, `1M` for monthly etc. Must be >= `6H`
      */
     frequency?: string;
     /**
      * The currency to report results in
      */
     rept_curr?: GetEthCollectionListingsOHLCRequest.ReptCurrEnum;
-    /**
-     * The ISO 8601 date/datetime of the oldest listing to pull for calculations
-     */
-    listing_start_date?: string;
-    /**
-     * The ISO 8601 date/datetime of the most recent listing to pull for calculations
-     */
-    listing_end_date?: string;
     /**
      * The ISO 8601 start date/datetime to return results for
      */

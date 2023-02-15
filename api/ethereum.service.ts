@@ -298,8 +298,8 @@ export class EthereumService {
     }
 
     /**
-     * Collection Price Listings Candlesticks
-     * Returns open, high, low, close candlesticks for collection listings at marketplaces at a selected time interval, as well as the number of active listings and the number of unique owners
+     * Collection Floor Price and Listings Candlesticks
+     * Returns historical floor price or more extensive open / high / floor / close candlesticks for collection listings at marketplaces at a selected time interval, as well as the number of active listings, the number of unique owners and the average age of open listings
      * @param getEthCollectionListingsOHLCRequest 
      * @param observe set whether or not to return the data Observable as the body, response or events. defaults to returning the body.
      * @param reportProgress flag to report request and response progress.
