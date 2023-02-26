@@ -20,5 +20,9 @@ export interface GetEthMarketplaceDataRequest {
      * Array of sub collections (e.g. Art Blocks)
      */
     sub_collection_tags?: Array<string>;
+    /**
+     * Return normalized data across marketplaces
+     */
+    normalized?: boolean;
 }
 
