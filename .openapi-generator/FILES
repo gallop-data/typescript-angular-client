@@ -32,6 +32,7 @@ model/getEthEnsLookupRequest.ts
 model/getEthHistoricalEventsRequest.ts
 model/getEthHistoricalTransactionsRequest.ts
 model/getEthLeaderBoardRequest.ts
+model/getEthLiveListingsRequest.ts
 model/getEthMarketplaceDataRequest.ts
 model/getEthMarketplaceFloorPriceRequest.ts
 model/getEthMarketplaceTraitDataRequest.ts

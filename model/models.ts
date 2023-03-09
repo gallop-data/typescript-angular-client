@@ -19,6 +19,7 @@ export * from './getEthEnsLookupRequest';
 export * from './getEthHistoricalEventsRequest';
 export * from './getEthHistoricalTransactionsRequest';
 export * from './getEthLeaderBoardRequest';
+export * from './getEthLiveListingsRequest';
 export * from './getEthMarketplaceDataRequest';
 export * from './getEthMarketplaceFloorPriceRequest';
 export * from './getEthMarketplaceTraitDataRequest';

@@ -2,10 +2,6 @@ import { NgModule, ModuleWithProviders, SkipSelf, Optional } from '@angular/core
 import { Configuration } from './configuration';
 import { HttpClient } from '@angular/common/http';
 
-import { EthereumService } from './api/ethereum.service';
-import { PolygonService } from './api/polygon.service';
-import { SolanaService } from './api/solana.service';
-import { StarknetService } from './api/starknet.service';
 
 @NgModule({
   imports:      [],
