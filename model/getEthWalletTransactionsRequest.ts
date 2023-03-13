@@ -15,7 +15,7 @@ export interface GetEthWalletTransactionsRequest {
     /**
      * The wallet address to search.
      */
-    wallet_address?: string;
+    wallet_address: string;
     /**
      * The pagination cursor.
      */

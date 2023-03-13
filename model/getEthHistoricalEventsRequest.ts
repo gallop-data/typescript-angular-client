@@ -29,6 +29,10 @@ export interface GetEthHistoricalEventsRequest {
      */
     page_size?: GetEthHistoricalEventsRequest.PageSizeEnum;
     /**
+     * Only return events occuring after this day [YYYY-MM-DD]
+     */
+    event_date?: string;
+    /**
      * The type of event: list, transfer, offer, mint, sale, cancel_list or cancel_offer
      */
     event_type?: GetEthHistoricalEventsRequest.EventTypeEnum;
